@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "MEMBRAIN — AGENTIC MEMORY ENGINE",
+    "role": "AI Systems / <br /> Backend + Cloud",
+    "description": "Production-grade agentic memory that lets AI agents revise beliefs, invalidate unsafe decisions and block stale actions. Built on CockroachDB, FastAPI and AWS.",
+    "link": "https://github.com/stan0047/MeMBrain",
+    "cta": "View Repo"
+  },
+  {
+    "id": 2,
+    "title": "FLYBRAIN — NATURE-INSPIRED VISION",
+    "role": "Research / <br /> Reinforcement Learning",
+    "description": "Open-source research into whether fruit-fly connectome-inspired neural architectures can drive visual navigation, with simulation, interfaces and RL policy training.",
+    "link": "https://github.com/stan0047/FRUITFLY",
+    "cta": "View Repo"
+  },
+  {
+    "id": 3,
+    "title": "MARKET STREAM — REAL-TIME DATA PIPELINE",
+    "role": "Streaming Systems / <br /> Data Engineering",
+    "description": "Cloud-native market data streaming platform processing thousands of events per second through Kafka, Spark, Airflow and dbt, with Grafana observability on AWS.",
+    "link": "https://github.com/stan0047/market-streaming-platform",
+    "cta": "View Repo"
+  },
+  {
+    "id": 4,
+    "title": "STORE IQ — RETAIL COMPUTER VISION",
+    "role": "Computer Vision / <br /> Real-Time Analytics",
+    "description": "End-to-end retail analytics pipeline that turns raw CCTV footage into shopper tracking, Re-ID identity, behavioural events and live KPIs over REST and WebSockets.",
+    "link": "https://github.com/stan0047/store-intelligence",
+    "cta": "View Repo"
+  },
+  {
+    "id": 5,
+    "title": "ENTERPRISE RAG — RBAC RETRIEVAL LAYER",
+    "role": "LLM Engineering / <br /> Vector Search",
+    "description": "Production-grade retrieval-augmented generation with role-based access control, so every answer is scoped to what the requesting user is allowed to read.",
+    "link": "https://github.com/stan0047/enterprise-rag-intelligence",
+    "cta": "View Repo"
+  },
+  {
+    "id": 6,
+    "title": "CHATBOT — CONVERSATIONAL AI",
+    "role": "NLP / <br /> Python",
+    "description": "Conversational AI chatbot in Python with a containerised service, modular utilities and a clean separation between the app layer and its helpers.",
+    "link": "https://github.com/stan0047/Chatbot",
+    "cta": "View Repo"
+  },
+  {
+    "id": 7,
+    "title": "COINSWAP — CRYPTO EXCHANGE FRONTEND",
+    "role": "Frontend / <br /> Product Design",
+    "description": "Responsive frontend for a cryptocurrency exchange, covering trading flows, asset listings, fees and account surfaces for beginner and experienced traders.",
+    "link": "https://github.com/stan0047/CoinSwap",
+    "cta": "View Repo"
+  }
+]
