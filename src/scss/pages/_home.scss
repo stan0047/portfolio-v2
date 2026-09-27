@@ -18,6 +18,8 @@
     justify-content: space-between;
     @extend %description-12;
     line-height: 1.4;
+    position: relative;
+    z-index: 10;
 
     .hide-mobile {
       @include media("<=phone") {
@@ -34,6 +36,47 @@
     .nav__button {
       flex-shrink: 0;
       flex-grow: 0;
+    }
+
+    .nav__dropdown {
+      position: relative;
+
+      &__menu {
+        position: absolute;
+        top: calc(100% + 8px);
+        right: 0;
+        min-width: 15rem;
+        display: none;
+        flex-direction: column;
+        background: $col-black;
+        border: 2px solid $col-boulder;
+        border-radius: 8px;
+        overflow: hidden;
+        z-index: 20;
+
+        &.is-open {
+          display: flex;
+        }
+      }
+
+      &__item {
+        padding: 10px 16px;
+        font-family: $font-sauce;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        text-align: left;
+        color: $col-gray;
+        transition: color 0.2s, background 0.2s;
+
+        @media (any-pointer: fine) {
+          &:hover,
+          &:focus-visible {
+            color: $col-black;
+            background: $col-orange;
+            outline: none;
+          }
+        }
+      }
     }
 
     &__left,
@@ -74,7 +117,8 @@
 
     .nav {
       &__folio,
-      &__availability {
+      &__availability,
+      &__actions {
         color: $col-boulder;
 
         @include media("<=phone") {
@@ -84,6 +128,12 @@
             display: none;
           }
         }
+      }
+
+      &__actions {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
       }
     }
   }
